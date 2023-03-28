@@ -1,0 +1,12 @@
+cmake_minimum_required (VERSION 3.8)
+
+add_subdirectory ("Lexer_Tests")
+add_subdirectory("Source_Lexer")
+add_subdirectory("Parser_Tests")
+add_subdirectory("Lexer_Parser")
+add_subdirectory("Validator_Tests")
+add_subdirectory("Compile_Tests")
+#add_subdirectory("Run_Tests")
+add_subdirectory("Runner_Tests")
+add_subdirectory("Executor_Tests")
+add_subdirectory("Execution_Tests")
